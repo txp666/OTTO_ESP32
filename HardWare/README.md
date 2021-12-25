@@ -1,3 +1,9 @@
+# 打样：
+
+OTTO的PCB厚度一定要1mm
+
+
+
 # 采购：
 
  [AN2051-245 2.4G全向天线 RF射频蓝牙 陶瓷贴片WIFI内置](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.7caa2e8dtIdJCk&id=558699169012&_u=p20q7cgb121e)
@@ -27,4 +33,6 @@
 [舵机SG90/MG90/SG92R/MG995/MG996R直升飞机机器人遥控车马达航模](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.67002e8d4KXd85&id=38974497807&_u=p20q7cgb3a3f)
 
 [轻触开关6*6*13贴片四脚SMD圆柄黑柄按键](https://item.szlcsc.com/836744.html)
+
+[电池[303450/500毫安]](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.99af2e8d9avaY7&id=528235852444&_u=p20q7cgbef60)
 

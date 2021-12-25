@@ -11,3 +11,5 @@
 
 ESP32开发环境：[VScode+PlatformIO](https://blog.csdn.net/qlexcel/article/details/121527415)
 
+建议安装存储卡、现在一张真彩图flash不够用了硬件参考[Peak](https://github.com/peng-zhihui/Peak)
+

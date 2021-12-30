@@ -13,7 +13,7 @@ ESP32开发环境：[VScode+PlatformIO](https://blog.csdn.net/qlexcel/article/de
 
 建议安装存储卡、现在一张真彩图flash不够用了硬件参考[Peak](https://github.com/peng-zhihui/Peak)
 
-采购参考请看AD文件夹
+采购参考请看HardWare文件夹
 
 [【自制】通过学习稚晖君的Peak做个OTTO机器人【教程】_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1aq4y1m7bJ?spm_id_from=333.999.0.0)
 

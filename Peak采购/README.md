@@ -28,3 +28,5 @@ Peak采购参考：
 
 [【优信电子】MPU-6050模块三轴加速度+三轴陀螺仪 6DOF模块GY-521-淘宝网 (taobao.com)](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.67002e8dFD3K8u&id=522575310310&_u=u20q7cgb548a)
 
+[全新原装 BC847BVC-7-F 封装SOT-563 贴片三极管-tmall.com天猫](https://detail.tmall.com/item.htm?id=628048515805&spm=a1z09.2.0.0.67002e8dY4uM5d&_u=u20q7cgb06a7)
+

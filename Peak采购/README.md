@@ -1,3 +1,4 @@
+非本项目，请忽略
 Peak采购参考：
 
 ### [贴片式SMD402 微型电磁式无源蜂鸣器](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.58db2e8dcAPJ5g&id=633598764121&_u=u20q7cgbf088)

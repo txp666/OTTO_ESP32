@@ -178,10 +178,10 @@ void move(int moveId, int T)
     Otto.home();
     break;
   case 1: //M 1 1000
-    Otto.walk(3, T, -1);
+    Otto.walk(3, T, 1);
     break;
   case 2: //M 2 1000
-    Otto.walk(3, T, 1);
+    Otto.walk(3, T, -1);
     break;
   case 3: //M 3 1000
     Otto.turn(3, T, 1);

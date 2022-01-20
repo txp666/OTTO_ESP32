@@ -21,7 +21,13 @@ ESP32开发环境：[VScode+PlatformIO](https://blog.csdn.net/qlexcel/article/de
 
 
 
+# 联系我：
 
+若有bug或问题请联系我
+
+QQ:1104428360
+
+邮箱：771454616@qq.com
 
 # 版本更新说明：
 

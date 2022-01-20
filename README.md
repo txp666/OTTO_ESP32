@@ -18,3 +18,15 @@ ESP32开发环境：[VScode+PlatformIO](https://blog.csdn.net/qlexcel/article/de
 [【自制】通过学习稚晖君的Peak做个OTTO机器人【教程】_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1aq4y1m7bJ?spm_id_from=333.999.0.0)
 
 [【自制】otto机器人移植ESP32+ESP32蓝牙遥控【演示】_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1ua41167SG?spm_id_from=333.999.0.0)
+
+
+
+
+
+# 版本更新说明：
+
+2022/1/20
+
+Model->body 增加了开关处的壁厚
+
+HardWare->OTTO修改了舵机排针位置

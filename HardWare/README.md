@@ -6,33 +6,34 @@ OTTO的PCB厚度一定要1mm
 
 # 采购：
 
- [AN2051-245 2.4G全向天线 RF射频蓝牙 陶瓷贴片WIFI内置](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.7caa2e8dtIdJCk&id=558699169012&_u=p20q7cgb121e)
-
-[拨动开关 贴片 7脚两档/8脚三档 MSK-12C02/MSK-02（10只）](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.7caa2e8dtIdJCk&id=557092773462&_u=p20q7cgbce6b)
-
-[贴片式SMD402 微型电磁式无源蜂鸣器4mm*3mm*2mm DET402 高颜值](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.7caa2e8dtIdJCk&id=633598764121&_u=p20q7cgb2b73)
-
-[ESP32-PICO-D4 QFN-48 双核Wi-Fi&蓝牙MCU无线收发芯片](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.7caa2e8dtIdJCk&id=635409903966&_u=p20q7cgbdacf)
-
-[LP5907MFX-3.3/NOPB LLVB 线性稳压器 5907 LP5907 SOT-23](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.7caa2e8dtIdJCk&id=599588277799&_u=p20q7cgbb2b1)
-
-[MCP73831T-2ATI/OT 贴片SOT23-5 MCP73831T-2ACI/OT MCP73831](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.7caa2e8dtIdJCk&id=654241859685&_u=p20q7cgb8fc5)
-
-[CP2102模块/USB转TTL](https://item.taobao.com/item.htm?spm=a1z10.3-c-s.w4002-21223910208.9.44cd6a4bd0HX4M&id=522573365635)
-
-[USB 3.1 Type-C 3.1母座 16p 短体贴片16P 单排SMT 四脚插90度DIP](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.67002e8d4KXd85&id=572795604831&_u=p20q7cgbea87)
-
-[1.54寸240x240高清ips lcd显示屏1.54寸液晶屏st7789驱动串口屏](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.67002e8d4KXd85&id=600653923469&_u=p20q7cgb5a5c)
-
-[亚克力板高透明有机玻璃加工定制塑料diy手工材料1-2-3-5mm展示盒](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.67002e8d4KXd85&id=614502697903&_u=p20q7cgb8bdc)
-
-[遥杆RKJXV1224005](https://item.szlcsc.com/157502.html)建议更换非自锁的
-
-[自锁开关6六脚5.8mm无锁8.5mm按钮7mm自恢复电源微动小型轻触按键](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.67002e8d4KXd85&id=626416230910&_u=p20q7cgb8be4)
-
-[舵机SG90/MG90/SG92R/MG995/MG996R直升飞机机器人遥控车马达航模](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.67002e8d4KXd85&id=38974497807&_u=p20q7cgb3a3f)
-
-[轻触开关6*6*13贴片四脚SMD圆柄黑柄按键](https://item.szlcsc.com/836744.html)
-
 [电池[303450/500毫安]](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.99af2e8d9avaY7&id=528235852444&_u=p20q7cgbef60)
 
+| Comment                                                      | Description                                   | Designator                             | Footprint                        | Quantity |
+| ------------------------------------------------------------ | --------------------------------------------- | -------------------------------------- | -------------------------------- | -------- |
+| [RAINSUN](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.7caa2e8dtIdJCk&id=558699169012&_u=p20q7cgb121e) | 天线                                          | A1                                     | ANT-Rainsun-AN5120               | 1        |
+| 0.1uF                                                        | Capacitor                                     | C1, C2, C3, C5, C8,  C12, C13          | C0603                            | 7        |
+| 10uF                                                         | Capacitor                                     | C4, C6, C14                            | C0603                            | 3        |
+| 1uF                                                          | Capacitor                                     | C7                                     | C0603                            | 1        |
+| 4.7UF                                                        | Capacitor                                     | C9, C11                                | C0603                            | 2        |
+| 104/0.1uf/100nf                                              | Capacitor                                     | C10                                    | C0603                            | 1        |
+| red                                                          | led                                           | D1                                     | LED0603                          | 1        |
+| [GP26-2520WV-3P](https://item.taobao.com/item.htm?spm=a1z10.3-c-s.w4002-21223910208.18.40c96a4b8Tk4yR&id=540755607552) | 2.54间距3p排针                                | H1, H2, H3, H4                         | PIN2.54_1*3                      | 4        |
+| [AO3400A](https://item.taobao.com/item.htm?spm=a1z10.3-c-s.w4002-21223910208.9.43706a4biknwUv&id=522574089119) | N-MOS                                         | Q1, Q2                                 | SOT23-3                          | 2        |
+| 0R                                                           | Resistor                                      | R2                                     | R0603                            | 1        |
+| 200R                                                         | Resistor                                      | R3                                     | R0603                            | 1        |
+| 12K                                                          | Resistor                                      | R4, R5                                 | R0603                            | 2        |
+| 10K                                                          | Resistor                                      | R6, R14, R15, R16,  R17, R18, R19, R20 | R0603                            | 8        |
+| 5.1K                                                         | Resistor                                      | R7, R8                                 | R0603                            | 2        |
+| 100K                                                         | Resistor                                      | R9, R10                                | R0603                            | 2        |
+| 2K                                                           | Resistor                                      | R11                                    | R0603                            | 1        |
+| 1K                                                           | Resistor                                      | R12                                    | R0603                            | 1        |
+| 10R                                                          | Resistor                                      | R13                                    | R0603                            | 1        |
+| [LCD-240x240](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.49222e8dUDZH8g&id=600653923469&_u=k20q7cgbb84c) | 显示屏                                        | S1                                     | LCD-240x240-FlUSH-154            | 1        |
+| [TF](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.49222e8dUDZH8g&id=522573245737&_u=k20q7cgb84a3) | 8脚自弹                                       | TF1                                    | TF-SOCKET                        | 1        |
+| [CH340C](https://item.taobao.com/item.htm?spm=a1z10.3-c-s.w4002-21223910208.17.63036a4b79TAGX&id=572355836370) |                                               | U1                                     | SOP-16_L10.0-W3.9-P1.27-LS6.0-BL | 1        |
+| [XC6210B332MR  3.3](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.49222e8dUDZH8g&id=559236610497&_u=k20q7cgb0854) | LDO                                           | U2                                     | SOT23-5                          | 1        |
+| [MCP73831](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.49222e8dUDZH8g&id=654241859685&_u=k20q7cgb58eb) | 线性充电管理控制器                            | U3                                     | SOT23-5                          | 1        |
+| [ESP32_SIP](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.31e32e8dKrcqT8&id=635409903966&_u=k20q7cgb6abe) |                                               | U4                                     | QFN-48_7X7                       | 1        |
+| [DET402](https://item.taobao.com/item.htm?spm=a1z09.2.0.0.7caa2e8dtIdJCk&id=633598764121&_u=p20q7cgb2b73) | 贴片蜂鸣器                                    | U6                                     | DET402                           | 1        |
+| [Type-C](https://item.taobao.com/item.htm?spm=a1z10.3-c-s.w4002-21223910208.14.17886a4bo9NVsb&id=573090887123) |                                               | USB1                                   | Type-C-TOP                       | 1        |
+| [S8050](https://item.taobao.com/item.htm?spm=a1z10.3-c-s.w4002-21223910208.11.44ff6a4b9TY6dB&id=522577964105) | Surface mount NPN  transistor, package SOT-23 | VT1, VT2                               | SOT23-3                          | 2        |

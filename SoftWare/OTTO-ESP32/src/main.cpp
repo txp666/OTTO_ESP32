@@ -6,10 +6,10 @@ OttoDIY Arduino Project, 2020 | sfranzyshen
          --------------- 
         |     O   O     |
         |---------------|
-YR 14==> |               | <== YL 13
+YR 33==> |               | <== YL 19
          --------------- 
             ||     ||
-RR 15==>   -----   ------  <== RL 19
+RR 32==>   -----   ------  <== RL 21
          |-----   ------|
 */
 #include <Otto9.h> //-- Otto Library version 9
@@ -55,7 +55,7 @@ void setup()
 {
   Serial.begin(115200);
   SerialBT.begin("OttoESP32"); //Bluetooth device name
-  Otto.init(13, 14, 19, 15, false, 25, 25, 2, 3);
+  Otto.init(19, 33, 21, 32, false, 25, 25, 2, 3);
   Otto.home();
   Otto.sing(S_connection); //Otto wake up!
   pinMode(12, OUTPUT);

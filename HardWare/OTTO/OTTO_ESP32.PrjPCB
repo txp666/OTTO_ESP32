@@ -129,38 +129,50 @@ DocumentPath=Project Outputs for OTTO_ESP32\OTTO_ESP32.GKO
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for OTTO_ESP32\OTTO_ESP32.GPB
+DocumentPath=Project Outputs for OTTO_ESP32\OTTO_ESP32.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for OTTO_ESP32\OTTO_ESP32.GPT
+DocumentPath=Project Outputs for OTTO_ESP32\OTTO_ESP32.GM13
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for OTTO_ESP32\OTTO_ESP32.GTL
+DocumentPath=Project Outputs for OTTO_ESP32\OTTO_ESP32.GM15
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for OTTO_ESP32\OTTO_ESP32.GTO
+DocumentPath=Project Outputs for OTTO_ESP32\OTTO_ESP32.GPB
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for OTTO_ESP32\OTTO_ESP32.GTP
+DocumentPath=Project Outputs for OTTO_ESP32\OTTO_ESP32.GPT
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for OTTO_ESP32\OTTO_ESP32.GTS
+DocumentPath=Project Outputs for OTTO_ESP32\OTTO_ESP32.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Project Outputs for OTTO_ESP32\OTTO_ESP32.LDP
+DocumentPath=Project Outputs for OTTO_ESP32\OTTO_ESP32.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Project Outputs for OTTO_ESP32\OTTO_ESP32.REP
+DocumentPath=Project Outputs for OTTO_ESP32\OTTO_ESP32.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument21]
+DocumentPath=Project Outputs for OTTO_ESP32\OTTO_ESP32.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for OTTO_ESP32\OTTO_ESP32.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for OTTO_ESP32\OTTO_ESP32.REP
+DItemRevisionGUID=
+
+[GeneratedDocument24]
 DocumentPath=Project Outputs for OTTO_ESP32\OTTO_ESP32.RUL
 DItemRevisionGUID=
 
@@ -322,7 +334,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=HP508140D8200C(HP Laser MFP 131 133 135-138)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -440,7 +452,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=HP508140D8200C(HP Laser MFP 131 133 135-138)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Plane
 OutputName1=Power-Plane Prints
@@ -472,7 +484,7 @@ OutputDefault5=0
 Configuration5_Name1=ForceUpdateSettings
 Configuration5_Item1=False
 Configuration5_Name2=OutputConfigurationParameter1
-Configuration5_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=5|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressLeadingZeroes|DocumentPath=C:\Users\txp77\Documents\GitHub\OTTO_ESP32\HardWare\OTTO\OTTO_ESP32.PcbDoc
+Configuration5_Item2=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=5|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressLeadingZeroes|DocumentPath=C:\Users\PS\Documents\GitHub\OTTO_ESP32\HardWare\OTTO\OTTO_ESP32.PcbDoc
 OutputType6=Final
 OutputName6=Final Artwork Prints
 OutputDocumentPath6=
@@ -515,7 +527,7 @@ OutputDefault12=0
 Configuration12_Name1=ForceUpdateSettings
 Configuration12_Item1=False
 Configuration12_Name2=OutputConfigurationParameter1
-Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16908289~1|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=40|MinusApertureTolerance=40|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=True|PlotUsedDrillGuideLayerPairs=True|PlusApertureTolerance=40|PlusApertureTolerance=40|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|DocumentPath=C:\Users\txp77\Documents\GitHub\OTTO_ESP32\HardWare\OTTO\OTTO_ESP32.PcbDoc
+Configuration12_Item2=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16908289~1|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=40|MinusApertureTolerance=40|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=True|PlotUsedDrillGuideLayerPairs=True|PlusApertureTolerance=40|PlusApertureTolerance=40|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|DocumentPath=C:\Users\PS\Documents\GitHub\OTTO_ESP32\HardWare\OTTO\OTTO_ESP32.PcbDoc
 
 [OutputGroup6]
 Name=Report Outputs
@@ -528,6 +540,18 @@ OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
+Configuration1_Name1=ColumnNameFormat
+Configuration1_Item1=CaptionAsName
+Configuration1_Name2=ForceUpdateSettings
+Configuration1_Item2=False
+Configuration1_Name3=General
+Configuration1_Item3=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1200|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
+Configuration1_Name4=GroupOrder
+Configuration1_Item4=Comment=True|Footprint=True
+Configuration1_Name5=SortOrder
+Configuration1_Item5=Designator=Up|Comment=Up|Footprint=Up
+Configuration1_Name6=VisibleOrder
+Configuration1_Item6=Comment=120|Description=120|Designator=120|Footprint=120|LibRef=120|Quantity=120
 OutputType2=ComponentCrossReference
 OutputName2=Component Cross Reference Report
 OutputDocumentPath2=

@@ -7,11 +7,9 @@
 
 [OTTO组装教程](https://tech.limuqiao.com/archives/24.html)
 
-同时支持官方APP和ESP32蓝牙遥控器
-
 ESP32开发环境：[VScode+PlatformIO](https://blog.csdn.net/qlexcel/article/details/121527415)
 
-建议安装存储卡、现在一张真彩图flash不够用了硬件参考[Peak](https://github.com/peng-zhihui/Peak)
+安装存储卡、硬件参考[Peak](https://github.com/peng-zhihui/Peak)
 
 采购参考请看HardWare文件夹
 

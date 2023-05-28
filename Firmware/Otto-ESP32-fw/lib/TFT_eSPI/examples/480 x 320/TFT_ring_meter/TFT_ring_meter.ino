@@ -15,7 +15,7 @@
 
 #define TFT_GREY 0x2104 // Dark grey 16 bit colour
 
-#include "alert.h" // Out of range alert icon
+#include "Alert.h" // Out of range alert icon
 
 #include <TFT_eSPI.h> // Hardware-specific library
 #include <SPI.h>
@@ -26,7 +26,7 @@ uint32_t runTime = -99999;       // time for next update
 
 int reading = 0; // Value to be displayed
 int d = 0; // Variable used for the sinewave test waveform
-boolean range_error = 0;
+bool range_error = 0;
 int8_t ramp = 1;
 
 void setup(void) {
@@ -180,7 +180,7 @@ int ringMeter(int value, int vmin, int vmax, int x, int y, int r, const char *un
   return x + r;
 }
 
-void drawAlert(int x, int y , int side, boolean draw)
+void drawAlert(int x, int y , int side, bool draw)
 {
   if (draw && !range_error) {
     drawIcon(alert, x - alertWidth/2, y - alertHeight/2, alertWidth, alertHeight);

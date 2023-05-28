@@ -21,11 +21,9 @@ void HAL::Init()
     HAL::Power_Init();
     HAL::Backlight_Init();
 
-    HAL::SD_Init();
 }
 
 void HAL::Update()
 {
     HAL::Power_Update();
-    __IntervalExecute(HAL::SD_Update(), 500);
 }

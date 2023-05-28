@@ -19,7 +19,7 @@
 #define DMA_BUSY_CHECK // DMA not available, leave blank
 
 // Initialise processor specific SPI functions, used by init()
-#if (!defined (SUPPORT_TRANSACTIONS) && defined (ESP8266))
+#if (!defined (SUPPORT_TRANSACTIONS) && defined (ARDUINO_ARCH_ESP8266))
   #define INIT_TFT_DATA_BUS \
     spi.setBitOrder(MSBFIRST); \
     spi.setDataMode(TFT_SPI_MODE); \
@@ -191,6 +191,11 @@
   SPI1CMD |= SPIBUSY; \
   while(SPI1CMD & SPIBUSY) {;}
 
+  #define tft_Write_16N(C) \
+  SPI1U1 = (15 << SPILMOSI) | (15 << SPILMISO); \
+  SPI1W0 = ((C)<<8 | (C)>>8); \
+  SPI1CMD |= SPIBUSY
+
   #define tft_Write_16S(C) \
   SPI1U1 = (15 << SPILMOSI) | (15 << SPILMISO); \
   SPI1W0 = C; \
@@ -215,6 +220,10 @@
   SPI1CMD |= SPIBUSY; \
   while(SPI1CMD & SPIBUSY) {;}
 
+#endif
+
+#ifndef tft_Write_16N
+  #define tft_Write_16N tft_Write_16
 #endif
 
 ////////////////////////////////////////////////////////////////////////////////////////

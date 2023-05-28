@@ -11,10 +11,10 @@
          ---------------
         |     O   O     |
         |---------------|
-YR 33==> |               | <== YL 19
+S3 YR 6==> |               | <== YL 4  S1
          ---------------
             ||     ||
-RR 32==>   -----   ------  <== RL 21
+S4 RR 7==>   -----   ------  <== RL 5  S2
          |-----   ------|
 */
 //#include <SerialCommand.h>
@@ -27,11 +27,11 @@ RR 32==>   -----   ------  <== RL 21
 
 Otto Otto;
 
-#define LeftLeg 19
-#define RightLeg 33
-#define LeftFoot 21
-#define RightFoot 32
-#define Buzzer 25
+#define LeftLeg 4
+#define RightLeg 6
+#define LeftFoot 5
+#define RightFoot 7
+#define Buzzer 15
 
 void setup()
 {
@@ -87,3 +87,9 @@ void OttoDancing()
     Otto.jump(1, 2000);
     Otto.home();
 }
+
+
+
+
+
+

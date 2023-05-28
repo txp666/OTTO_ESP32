@@ -1,6 +1,6 @@
 #include "Port/Display.h"
 #include "HAL/HAL.h"
-static uint32_t cha =3;
+static uint8_t cha =7;
 static uint32_t backlightValue = 0;
 /**
   * @brief  背光亮度渐变，受lv_anim控制

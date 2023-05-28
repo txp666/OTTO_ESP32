@@ -23,19 +23,6 @@ namespace HAL
 /* I2C */
     void I2C_Init(bool startScan);
 
-/* IMU */
-    void IMU_Init();
-    void IMU_Update();
-
-/* SD */
-    bool SD_Init();
-    void SD_Update();
-    bool SD_GetReady();
-    float SD_GetCardSizeMB();
-    typedef void(* SD_CallbackFunction_t)(bool insert);
-    void SD_SetEventCallback(SD_CallbackFunction_t callback);
-
-    bool BluetoothConnected();
 
 /* Power */
     void Power_Init();
@@ -50,27 +37,10 @@ namespace HAL
     typedef void(* Power_CallbackFunction_t)(void);
     void Power_SetEventCallback(Power_CallbackFunction_t callback);
 
-/* Buzzer */
-    void Buzz_init();
-    void Buzz_SetEnable(bool en);
-    void Buzz_Tone(uint32_t freq, int32_t duration = 0);
-
-/* Encoder */
-    void Encoder_Init();
-    void Encoder_Update();
-    int16_t Encoder_GetDiff();
-    bool Encoder_GetIsPush();
-    void Encoder_SetEnable(bool en);
-
-/* Audio */
-    void Audio_Init();
-    void Audio_Update();
-    bool Audio_PlayMusic(const char* name);
 
 
-/* Bluetooth */
-    bool BT_Init();
-    void BT_Update();
+
+
 
 }
 

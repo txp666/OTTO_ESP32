@@ -1,4 +1,4 @@
-# OTTO_ESP32
+# OTTO_ESP32  此仓库弃用，建议制作 小智AI版本
  OTTO机器人加入esp32蓝牙遥控和屏幕
 
 [OTTO开源地址](https://github.com/OttoDIY)
